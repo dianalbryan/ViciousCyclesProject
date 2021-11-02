@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color:#545454;
+}
+
+h1 {
+	font-size: 3em;
+	text-align: center;
+}
+
+nav {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+	
+	
+}
+header img {
+position: relative;
+text-align: right;
+}
+
+footer {
+	background-color:#545454;
+	color: white;
+	text-align: center;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+nav ul {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color:#A3610A;
+	text-align: right;
+}
+nav li {
+	display: inline;
+	padding: 1%;
+	list-style-type: none;
+	font-weight: bold;
+	color: white
+}
+
+main {
+	display: grid;
+	padding-right: 3em;
+	padding-left: 3em;
+}
+
+.pic1 {
+    width: 40%;
+	float: left;
+}
+
+.pic2 {
+width: 40%;
+	float: right;
+}
+
+.intro { 
+	padding-left: 1em;
+	
+}
+
+.intro2 {
+order: 4;
+}
+
+.parallax {
+  background-image: url("images/mountains-gd9e7e900c_1280.png");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
